@@ -97,3 +97,10 @@
      - Exercicio 3 parte 2 nivel 1 RESOLVIDO ✔️
 
      - Agora era pra ter o link de um forms de prova, mas o curso é de 3 anos atrás e o link foi excluído... isso significa que eu passei hehe
+
+  - 18 de janeiro de 2024 :
+    - Booleans são fundamentais nas tomadas de decisões em lógica condicional, declarações switch, declarações if, fluxo de controle, etc.
+    - Ná prática:
+      - Zero value
+      - Atribuindo um valor
+      - Bool como resultado de operadores racionais
