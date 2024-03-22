@@ -160,3 +160,27 @@
     - Raw strings literals
     - Conversão para slice of bytes: []byte(x)
     - %#U, %#x
+
+  ## Constantes
+
+  - São valores imutáveis
+  - Podem ser tipadas ou não:
+    - const oi = "Bom dia"
+    - const oi string = "Bom dia"
+  - As não tipadas só terão um tipo atribuido a elas quando forem usadas
+  - Na prática: int, float, string.
+
+  ## Iota
+
+  - ref/spec#Iota
+  - Numa declaração de constantes, o identificador iota representa números sequenciais
+  - Na prática:
+    - iota, iota + 1, a = iota b c, reinicia em cada const, _
+
+  ## Deslocamento de bits
+
+  - Deslocamento de bits é quando deslocamos digitos binários para a esquerda ou direita.
+  - Na prática:
+    - %d %b
+    - x << y
+    - iota * 10 << 10 = kb, mb, gb
